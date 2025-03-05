@@ -54,11 +54,6 @@ D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-150.png
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-200.png
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-400.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-100.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-125.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\runtimes\win-x64\native\WebView2Loader.dll
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dcompi.dll
@@ -437,11 +432,6 @@ D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.AssemblyInfoInputs.cache
@@ -470,3 +460,13 @@ D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.sourcelink.json
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\derniere.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\deuxieme.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\troisieme.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\derniere.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\deuxieme.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\home.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\logo.scale-100.png
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\troisieme.scale-100.png

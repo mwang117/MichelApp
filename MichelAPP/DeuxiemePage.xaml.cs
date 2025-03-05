@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Maui.Controls;
 
 namespace MichelAPP
 {
-    class DeuxiemePage
+    public partial class DeuxiemePage : ContentPage
     {
+        public DeuxiemePage()
+        {
+            InitializeComponent();
+        }
     }
 }
