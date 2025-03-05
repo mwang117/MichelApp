@@ -31,8 +31,8 @@
                        Grid.Column="1" 
                        Margin="5"/>
             </Grid>
-            
-            <!-- Bouton -->
+
+            <!-- Bouton accéder à la page d'animation-->
             <Button 
                     Text="Voir l'animation"
                     FontSize="16"
@@ -40,8 +40,9 @@
                     BackgroundColor="Gray"
                     TextColor="White"
                     CornerRadius="10"
-                    HorizontalOptions="Center"/>
-
+                    HorizontalOptions="Center"
+                    Margin="10"
+                    Clicked="OnGifButtonClicked"/>
 
         </VerticalStackLayout>
     </ScrollView>
