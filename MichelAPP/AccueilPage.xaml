@@ -31,6 +31,17 @@
                        Grid.Column="1" 
                        Margin="5"/>
             </Grid>
+            
+            <!-- Bouton -->
+            <Button 
+                    Text="Voir l'animation"
+                    FontSize="16"
+                    Padding="10"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"/>
+
 
         </VerticalStackLayout>
     </ScrollView>
