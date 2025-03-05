@@ -4,12 +4,28 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MichelAPP"
-    Shell.FlyoutBehavior="Flyout"
-    Title="MichelAPP">
+    Title="MichelAPP"
+    Shell.TitleColor="Black"
+    Shell.TabBarForegroundColor="Black"
+    Shell.TabBarBackgroundColor="White">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!-- Menu en bas -->
+    <TabBar>
+        <Tab Title="Accueil" Icon="accueil.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+
+        <Tab Title="Deuxième_Page" Icon="deuxieme.png">
+            <ShellContent ContentTemplate="{DataTemplate local:DeuxiemePage}" />
+        </Tab>
+
+        <Tab Title="Troisième_Page" Icon="troisieme.png">
+            <ShellContent ContentTemplate="{DataTemplate local:TroisiemePage}" />
+        </Tab>
+
+        <Tab Title="Dernière_Page" Icon="derniere.png">
+            <ShellContent ContentTemplate="{DataTemplate local:DernierePage}" />
+        </Tab>
+    </TabBar>
 
 </Shell>
