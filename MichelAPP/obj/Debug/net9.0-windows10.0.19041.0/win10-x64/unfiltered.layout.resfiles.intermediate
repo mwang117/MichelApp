@@ -2,6 +2,7 @@ runtimes\win-x64\native\WebView2Loader.dll
 FluentUI.cs
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
+animation.scale-100.gif
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -51,6 +52,8 @@ appiconWideTile.scale-400.png
 derniere.scale-100.png
 deuxieme.scale-100.png
 home.scale-100.png
+image1.scale-100.png
+image2.scale-100.png
 logo.scale-100.png
 troisieme.scale-100.png
 splashSplashScreen.scale-100.png

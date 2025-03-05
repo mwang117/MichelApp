@@ -1,0 +1,9 @@
+# Ignore build and cache files
+bin/
+obj/
+.vs/
+*.exe
+*.dll
+*.pdb
+*.cache
+MichelAPP.exe.WebView2/

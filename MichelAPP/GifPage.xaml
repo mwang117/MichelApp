@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MichelAPP.GifPage"
+             Title="Animation">
+
+    <VerticalStackLayout Spacing="20" Padding="20" HorizontalOptions="Center" VerticalOptions="Center">
+        <!-- Affichage du GIF -->
+        <WebView HeightRequest="200" WidthRequest="200"
+                 Source="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTBuYnlqOG12MDVhcnM2ZGs5eHRycmhic240aGxkdXBwdWVmbG53dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/73trcfdnqJmrftTy7i/giphy.gif"
+                 VerticalOptions="Center"/>
+
+        <!-- Bouton pour revenir à l'accueil -->
+        <Button Text="Retour à l'accueil"
+                FontSize="16"
+                Padding="10"
+                BackgroundColor="Gray"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="Center"
+                Clicked="OnBackButtonClicked"/>
+    </VerticalStackLayout>
+
+</ContentPage>

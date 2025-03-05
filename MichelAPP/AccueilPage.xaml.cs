@@ -1,4 +1,6 @@
-﻿namespace MichelAPP
+﻿using Microsoft.Maui.Controls;
+
+namespace MichelAPP
 {
     public partial class AccueilPage : ContentPage
     {
@@ -6,6 +8,11 @@
         {
             InitializeComponent();
         }
-    }
 
+        // Aller à la page des GIFs
+        private async void OnGifButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GifPage());
+        }
+    }
 }

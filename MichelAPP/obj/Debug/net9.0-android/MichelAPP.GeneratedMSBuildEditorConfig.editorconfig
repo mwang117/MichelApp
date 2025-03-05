@@ -48,6 +48,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.DeuxiemePage.xam
 build_metadata.AdditionalFiles.TargetPath = DeuxiemePage.xaml
 build_metadata.AdditionalFiles.RelativePath = DeuxiemePage.xaml
 
+[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/GifPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.GifPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GifPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GifPage.xaml
+
 [D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.Resources.Styles.Colors.xaml

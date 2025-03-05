@@ -1,12 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MichelAPP.AccueilPage">
+             x:Class="MichelAPP.AccueilPage"
+             Title="Accueil">
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label 
-            Text="Bienvenue sur la Page d'acceuil" 
-            FontSize="24" />
-    </StackLayout>
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <!-- Titre principal et sous-titre -->
+            <Label Text="Accueil" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />
+
+            <Label Text="Votre application cross-platform en .NET MAUI" 
+                   FontSize="16" 
+                   HorizontalOptions="Center" />
+
+            <!-- Deux images gauche et droite à coté -->
+            <Grid ColumnDefinitions="*,*" HorizontalOptions="Center">
+                <Image Source="image1.png"
+                       Aspect="AspectFit" 
+                       HeightRequest="120" WidthRequest="120"
+                       Grid.Column="0" 
+                       Margin="5"/>
+
+                <Image Source="image2.png"
+                       Aspect="AspectFit" 
+                       HeightRequest="120" WidthRequest="120"
+                       Grid.Column="1" 
+                       Margin="5"/>
+            </Grid>
+
+            <!-- Bouton accéder à la page d'animation-->
+            <Button 
+                    Text="Voir l'animation"
+                    FontSize="16"
+                    Padding="10"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"
+                    Margin="10"
+                    Clicked="OnGifButtonClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
