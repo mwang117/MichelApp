@@ -3,12 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MichelAPP.AccueilPage"
              Title="Accueil">
-    
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label 
-            Text="Bienvenue sur la Page d'acceuil" 
-            FontSize="24" />
-    </StackLayout>
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <!-- Titre principal et sous-titre -->
+            <Label Text="Accueil" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />
+
+            <Label Text="Votre application cross-platform en .NET MAUI" 
+                   FontSize="16" 
+                   HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
