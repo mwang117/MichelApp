@@ -5,13 +5,13 @@
     Les changements apportés à ce fichier peuvent provoquer un comportement incorrect et seront perdus si
     le contenu est regénéré.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.companyname.michelapp" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.companyname.michelapp" android:installLocation="preferExternal" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="35" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <permission android:name="com.companyname.michelapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.michelapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc6407b6f30847a2639f.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="MichelAPP" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+  <application android:name="crc6407b6f30847a2639f.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="MichelApp" android:supportsRtl="true">
     <activity android:name="crc6407b6f30847a2639f.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

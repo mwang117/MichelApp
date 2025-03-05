@@ -1327,3 +1327,11 @@ D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-android\assets\FluentUI.cs
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-android\assets\OpenSans-Regular.ttf
 D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-android\assets\OpenSans-Semibold.ttf
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-android\com.mycompany.michelapp.apk
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-android\com.mycompany.michelapp.aab
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-android\com.mycompany.michelapp-Signed.aab
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-android\com.mycompany.michelapp-Signed.apk
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-android\com.mycompany.michelapp-Signed.apk.idsig
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-android\android\bin\com.mycompany.michelapp.apk
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-android\android\bin\com.mycompany.michelapp.aab
+D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\obj\Debug\net9.0-android\android\bin\com.mycompany.michelapp.apks
