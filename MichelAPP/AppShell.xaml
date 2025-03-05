@@ -17,15 +17,15 @@
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
 
-        <Tab Title="Deuxième_Page" Icon="deuxieme.png">
+        <Tab Title="Deuxième Page" Icon="deuxieme.png">
             <ShellContent ContentTemplate="{DataTemplate local:DeuxiemePage}" />
         </Tab>
 
-        <Tab Title="Troisième_Page" Icon="troisieme.png">
+        <Tab Title="Troisième Page" Icon="troisieme.png">
             <ShellContent ContentTemplate="{DataTemplate local:TroisiemePage}" />
         </Tab>
 
-        <Tab Title="Dernière_Page" Icon="derniere.png">
+        <Tab Title="Dernière Page" Icon="derniere.png">
             <ShellContent ContentTemplate="{DataTemplate local:DernierePage}" />
         </Tab>
     </TabBar>
