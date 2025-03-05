@@ -22,11 +22,11 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/Acceuil.xaml]
+[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/AccueilPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.Acceuil.xaml
-build_metadata.AdditionalFiles.TargetPath = Acceuil.xaml
-build_metadata.AdditionalFiles.RelativePath = Acceuil.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.AccueilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AccueilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AccueilPage.xaml
 
 [D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

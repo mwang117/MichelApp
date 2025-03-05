@@ -6,15 +6,26 @@
     xmlns:local="clr-namespace:MichelAPP"
     Title="MichelAPP"
     Shell.TitleColor="Black"
+    Shell.BackgroundColor="White"
     Shell.TabBarForegroundColor="Black"
     Shell.TabBarBackgroundColor="White"
     Shell.TabBarUnselectedColor="Gray"
     Shell.TabBarTitleColor="Blue">
 
+    <!-- Ajout du logo et du titre bien aligné -->
+    <Shell.TitleView>
+        <Grid HorizontalOptions="Start">
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <Image Source="logo.png" HeightRequest="30" WidthRequest="30" Margin="10,0,5,0"/>
+                <Label Text="MichelAPP" FontSize="20" VerticalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+    </Shell.TitleView>
+
     <!-- Menu en bas -->
     <TabBar>
         <Tab Title="Accueil" Icon="home.png">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:AccueilPage}" />
         </Tab>
 
         <Tab Title="Deuxième Page" Icon="deuxieme.png">
