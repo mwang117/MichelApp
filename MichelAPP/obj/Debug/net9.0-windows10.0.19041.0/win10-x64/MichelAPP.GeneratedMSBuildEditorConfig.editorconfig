@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/DernierePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.DernierePage.xaml
+build_metadata.AdditionalFiles.TargetPath = DernierePage.xaml
+build_metadata.AdditionalFiles.RelativePath = DernierePage.xaml
+
+[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/DeuxiemePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.DeuxiemePage.xaml
+build_metadata.AdditionalFiles.TargetPath = DeuxiemePage.xaml
+build_metadata.AdditionalFiles.RelativePath = DeuxiemePage.xaml
+
 [D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.MainPage.xaml
@@ -51,3 +63,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/TroisiemePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.TroisiemePage.xaml
+build_metadata.AdditionalFiles.TargetPath = TroisiemePage.xaml
+build_metadata.AdditionalFiles.RelativePath = TroisiemePage.xaml
