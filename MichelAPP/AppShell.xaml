@@ -7,11 +7,13 @@
     Title="MichelAPP"
     Shell.TitleColor="Black"
     Shell.TabBarForegroundColor="Black"
-    Shell.TabBarBackgroundColor="White">
+    Shell.TabBarBackgroundColor="White"
+    Shell.TabBarUnselectedColor="Gray"
+    Shell.TabBarTitleColor="Blue">
 
     <!-- Menu en bas -->
     <TabBar>
-        <Tab Title="Accueil" Icon="accueil.png">
+        <Tab Title="Accueil" Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
 
