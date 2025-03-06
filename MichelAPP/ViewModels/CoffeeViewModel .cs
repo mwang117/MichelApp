@@ -10,9 +10,9 @@ namespace MichelAPP.ViewModels
     public class CoffeeViewModel : INotifyPropertyChanged
     {
         private readonly CoffeeService _coffeeService;
-        public ObservableCollection<CoffeeModel> Coffees { get; set; }
-        private bool _isLoading;
+        public ObservableCollection<CoffeeModel> Coffees { get; set; } = new();
 
+        private bool _isLoading;
         public bool IsLoading
         {
             get => _isLoading;
@@ -23,10 +23,9 @@ namespace MichelAPP.ViewModels
             }
         }
 
-        public CoffeeViewModel() 
+        public CoffeeViewModel()
         {
             _coffeeService = new CoffeeService();
-            Coffees = new ObservableCollection<CoffeeModel>();
             LoadCoffees();
         }
 
@@ -42,8 +41,8 @@ namespace MichelAPP.ViewModels
             IsLoading = false;
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null!)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

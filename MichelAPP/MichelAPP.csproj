@@ -68,12 +68,18 @@
 	  <Compile Update="AcceuilPage.xaml.cs">
 	    <DependentUpon>AcceuilPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="DetailPage.xaml.cs">
+	    <DependentUpon>DetailPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="GifPage.xaml.cs">
 	    <DependentUpon>GifPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="DetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="GifPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

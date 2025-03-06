@@ -1,6 +1,5 @@
 ﻿using Microsoft.Maui.Controls;
 using MichelAPP.Models;
-using System.Linq;
 
 namespace MichelAPP
 {
@@ -12,7 +11,6 @@ namespace MichelAPP
         {
             InitializeComponent();
             Coffee = selectedCoffee;
-            Coffee.IngredientsList = string.Join(", ", Coffee.Ingredients);
             BindingContext = Coffee;
         }
     }
