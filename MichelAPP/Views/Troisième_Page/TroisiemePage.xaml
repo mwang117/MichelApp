@@ -6,10 +6,18 @@
              BackgroundColor="Black"
              xmlns:local="clr-namespace:MichelAPP.ViewModels">
 
+    <ContentPage.BindingContext>
+        <local:CoffeeViewModel />
+    </ContentPage.BindingContext>
+
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label 
-            Text="Bienvenue sur la Troisième Page" 
-            FontSize="24" />
+
+        <Label Text="Ajoutez un nouveau café" 
+                   FontSize="24" 
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+
     </StackLayout>
 
 </ContentPage>
