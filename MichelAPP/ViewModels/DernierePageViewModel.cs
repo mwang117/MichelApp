@@ -7,7 +7,7 @@ namespace MichelAPP.ViewModels
 {
     public class DernierePageViewModel : INotifyPropertyChanged
     {
-        private bool _modeSombre = false; // Variable pour le mode sombre
+        private bool _modeSombre = false;
         private string _citationActuelle = "Appuyez sur le bouton pour obtenir un conseil !";
 
         public string CitationActuelle
@@ -20,7 +20,7 @@ namespace MichelAPP.ViewModels
             }
         }
 
-        public Color CouleurFond => _modeSombre ? Colors.Black : Colors.White;
+        public Color CouleurFond => _modeSombre ? Colors.Black : Colors.Gray;
 
         public ICommand ChangerThemeCommande { get; }
         public ICommand ObtenirCitationCommande { get; }
@@ -31,12 +31,14 @@ namespace MichelAPP.ViewModels
             ObtenirCitationCommande = new Command(async () => await ObtenirCitationAleatoire());
         }
 
+        // Méthode pour changer le mode sombre ou clair
         private void ChangerMode()
         {
             _modeSombre = !_modeSombre;
             OnPropertyChanged(nameof(CouleurFond));
         }
 
+        // Méthode pour obtenir depuis l'API une citation aléatoire
         private async Task ObtenirCitationAleatoire()
         {
             try
