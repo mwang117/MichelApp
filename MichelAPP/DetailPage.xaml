@@ -43,7 +43,7 @@
                     BackgroundColor="Gray"
                     TextColor="White"
                     CornerRadius="10"
-                    Clicked="OnBackButtonClicked"
+                    Clicked="OnRetourButtonClicked"
                     HorizontalOptions="Center"/>
 
         </StackLayout>

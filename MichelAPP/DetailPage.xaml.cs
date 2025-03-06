@@ -13,5 +13,10 @@ namespace MichelAPP
             Coffee = selectedCoffee;
             BindingContext = Coffee;
         }
+
+        private async void OnRetourButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }
