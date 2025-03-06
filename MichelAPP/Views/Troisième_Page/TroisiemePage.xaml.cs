@@ -1,15 +1,16 @@
-﻿using Microsoft.Maui.Storage;
-using Microsoft.Maui.Controls;
-using System;
-using System.Threading.Tasks;
+﻿using MichelAPP.ViewModels;
 
 namespace MichelAPP
 {
     public partial class TroisiemePage : ContentPage
     {
+        private readonly CoffeeViewModel _viewModel;
         public TroisiemePage()
         {
             InitializeComponent();
+
+            _viewModel = Application.Current.MainPage.Handler.MauiContext.Services.GetService<CoffeeViewModel>();
+            BindingContext = _viewModel;
         }
 
         private async void OnSelectImage(object sender, EventArgs e)

@@ -24,6 +24,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<CoffeeViewModel>();
         builder.Services.AddTransient<DeuxiemePage>();
         builder.Services.AddTransient<DetailPage>();
+        builder.Services.AddSingleton<CoffeeViewModel>();
 
 #if DEBUG
         builder.Logging.AddDebug();

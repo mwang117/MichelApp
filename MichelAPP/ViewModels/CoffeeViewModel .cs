@@ -5,7 +5,6 @@ using MichelAPP.Services;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using Microsoft.Maui.Controls;
 
 namespace MichelAPP.ViewModels
 {
@@ -68,11 +67,13 @@ namespace MichelAPP.ViewModels
                 Id = Coffees.Count + 1,
                 Title = NewTitle,
                 Description = NewDescription,
-                Image = string.IsNullOrWhiteSpace(NewImage) ? "image1.png" : NewImage, // Image par défaut
+                Image = string.IsNullOrWhiteSpace(NewImage) ? "image1.png" : NewImage,
                 Ingredients = NewIngredients.Split(',')
             };
 
             Coffees.Add(newCoffee);
+
+            OnPropertyChanged(nameof(Coffees));
 
             // Réinitialisation des champs
             NewTitle = "";
@@ -84,6 +85,7 @@ namespace MichelAPP.ViewModels
             OnPropertyChanged(nameof(NewImage));
             OnPropertyChanged(nameof(NewIngredients));
         }
+
 
 
         public event PropertyChangedEventHandler? PropertyChanged;

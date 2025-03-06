@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MichelAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+828a62c357135397ff96a8e4e71471083fc1e3d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6592a1e57e14ec81ee7633a9b93a815ee3e93b8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MichelAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MichelAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

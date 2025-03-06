@@ -7,6 +7,8 @@
         public required string Description { get; set; }
         public required string[] Ingredients { get; set; }
         public required string Image { get; set; }
+
         public string IngredientsList => string.Join(", ", Ingredients);
+        public string DisplayImage => Image.StartsWith("http") ? Image : $"file://{Image}";
     }
 }
