@@ -12,6 +12,17 @@
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 TextColor="White"/>
+
+        <!-- Espace entre les éléments -->
+        <BoxView HeightRequest="20"/>
+
+        <!-- Label pour afficher une citation -->
+        <Label 
+                Text="{Binding CurrentQuote}" 
+                FontSize="18"
+                FontAttributes="Italic"
+                HorizontalTextAlignment="Center"
+                TextColor="White"/>
     </StackLayout>
 
 </ContentPage>
