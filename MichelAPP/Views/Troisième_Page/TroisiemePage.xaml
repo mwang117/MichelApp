@@ -18,6 +18,18 @@
                    TextColor="White"
                    HorizontalTextAlignment="Center"/>
 
+        <!-- Nom du café -->
+        <Entry Placeholder="Nom du café" Text="{Binding NewTitle}" />
+
+        <!-- Description -->
+        <Editor Placeholder="Description" HeightRequest="80" Text="{Binding NewDescription}" />
+
+        <!-- URL de l'image -->
+        <Entry Placeholder="URL de l'image" Text="{Binding NewImage}" />
+
+        <!-- Ingrédients -->
+        <Entry Placeholder="Ingrédients (séparés par une virgule)" Text="{Binding NewIngredients}" />
+
     </StackLayout>
 
 </ContentPage>
