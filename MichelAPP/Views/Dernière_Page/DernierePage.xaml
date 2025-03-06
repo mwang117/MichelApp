@@ -5,9 +5,13 @@
              Title="Page Libre">
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <!-- Titre -->
         <Label 
-            Text="Bienvenue sur la Dernière Page" 
-            FontSize="24" />
+                Text="Bienvenue sur la Dernière Page" 
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="White"/>
     </StackLayout>
 
 </ContentPage>
