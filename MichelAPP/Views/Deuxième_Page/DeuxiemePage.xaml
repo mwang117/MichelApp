@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MichelAPP.DeuxiemePage"
+             Title="Cafés"
+             BackgroundColor="Black"
+             xmlns:local="clr-namespace:MichelAPP.ViewModels">
+
+    <ContentPage.BindingContext>
+        <local:CoffeeViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+
+        <StackLayout Padding="10">
+
+            <!-- Chargement -->
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="White"/>
+
+            <CollectionView ItemsSource="{Binding Coffees}" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Stroke="White" StrokeThickness="4" Padding="10" Margin="10" BackgroundColor="DarkGray" 
+                                StrokeShape="RoundRectangle 10">
+
+                            <VerticalStackLayout Spacing="10">
+                                <!-- Image du café -->
+                                <Border Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 10">
+                                    <Image Source="{Binding Image}" 
+                                           HeightRequest="150" 
+                                           Aspect="AspectFill"/>
+                                </Border>
+
+                                <!-- Titre du café -->
+                                <Label Text="{Binding Title}" 
+                                       FontSize="22" 
+                                       FontAttributes="Bold" 
+                                       TextColor="White"/>
+
+                                <!-- Description -->
+                                <Label Text="{Binding Description}" 
+                                       FontSize="14" 
+                                       TextColor="White"/>
+
+                                <!-- Bouton Voir Détails -->
+                                <Button Text="Voir les détails" 
+                                        CommandParameter="{Binding}" 
+                                        Clicked="OnItemSelected"
+                                        BackgroundColor="Purple"
+                                        TextColor="White"
+                                        CornerRadius="10"
+                                        HorizontalOptions="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

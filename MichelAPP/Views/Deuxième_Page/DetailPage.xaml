@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MichelAPP.DetailPage"
+             Title="Détails du Café"
+             BackgroundColor="Black">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Bouton Retour -->
+            <Button Text="Retour"
+                    FontSize="16"
+                    Padding="10"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnRetourButtonClicked"
+                    HorizontalOptions="Start"/>
+
+            <!-- Image du café -->
+            <Border Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 10">
+                <Image Source="{Binding Image}" 
+                       HeightRequest="250" 
+                       Aspect="AspectFill" />
+            </Border>
+
+
+            <!-- Nom du café -->
+            <Label Text="{Binding Title}" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+
+            <!-- Description -->
+            <Label Text="{Binding Description}" 
+                   FontSize="16"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+
+            <!-- Ingrédients -->
+            <Label Text="Ingrédients :" 
+                   FontSize="18" 
+                   FontAttributes="Bold"
+                   Margin="10"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label Text="{Binding IngredientsList}" 
+                   FontSize="14" 
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
