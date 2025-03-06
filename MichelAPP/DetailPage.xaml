@@ -8,10 +8,23 @@
     <ScrollView>
         <StackLayout Padding="20" Spacing="15">
 
+            <!-- Bouton Retour -->
+            <Button Text="Retour"
+                    FontSize="16"
+                    Padding="10"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnRetourButtonClicked"
+                    HorizontalOptions="Start"/>
+
             <!-- Image du café -->
-            <Border Padding="0" CornerRadius="10" HasShadow="True" BackgroundColor="Transparent">
-                <Image Source="{Binding Image}" HeightRequest="250" Aspect="AspectFill" />
+            <Border Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 10">
+                <Image Source="{Binding Image}" 
+                       HeightRequest="250" 
+                       Aspect="AspectFill" />
             </Border>
+
 
             <!-- Nom du café -->
             <Label Text="{Binding Title}" 
@@ -29,22 +42,15 @@
             <!-- Ingrédients -->
             <Label Text="Ingrédients :" 
                    FontSize="18" 
-                   FontAttributes="Bold" 
-                   TextColor="White"/>
+                   FontAttributes="Bold"
+                   Margin="10"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
 
             <Label Text="{Binding IngredientsList}" 
                    FontSize="14" 
-                   TextColor="White"/>
-
-            <!-- Bouton Retour -->
-            <Button Text="Retour"
-                    FontSize="16"
-                    Padding="10"
-                    BackgroundColor="Gray"
-                    TextColor="White"
-                    CornerRadius="10"
-                    Clicked="OnRetourButtonClicked"
-                    HorizontalOptions="Center"/>
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
 
         </StackLayout>
     </ScrollView>

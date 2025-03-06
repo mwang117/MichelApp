@@ -1,5 +1,1 @@
-2025/03/06-12:16:56.967 36bc Log #3: 6 ops saved to Table #4 OK
-2025/03/06-12:16:56.969 36bc Archiving D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Site Characteristics Database/000003.log: OK
-2025/03/06-12:16:56.969 36bc Table #4: 6 entries OK
-2025/03/06-12:16:56.970 36bc Archiving D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
-2025/03/06-12:16:56.976 36bc **** Repaired leveldb D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Site Characteristics Database; recovered 1 files; 369 bytes. Some data may have been lost. ****
+2025/03/06-12:16:56.979 36bc Reusing MANIFEST D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001

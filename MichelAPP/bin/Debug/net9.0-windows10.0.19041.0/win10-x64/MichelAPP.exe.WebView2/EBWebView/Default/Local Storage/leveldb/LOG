@@ -1,2 +1,3 @@
-2025/03/06-12:16:57.148 6454 Creating DB D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Local Storage\leveldb since it was missing.
-2025/03/06-12:16:57.196 6454 Reusing MANIFEST D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/03/06-12:35:35.297 6488 Reusing MANIFEST D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/03/06-12:35:35.319 6488 Recovering log #3
+2025/03/06-12:35:35.324 6488 Reusing old log D:\BUT2\S4\R4A_11 Dév mobile\appli_mobile\MichelAPP\MichelAPP\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MichelAPP.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 

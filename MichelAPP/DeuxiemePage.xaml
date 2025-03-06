@@ -10,48 +10,52 @@
         <local:CoffeeViewModel />
     </ContentPage.BindingContext>
 
-    <StackLayout Padding="10">
+    <ScrollView>
 
-        <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="White"/>
+        <StackLayout Padding="10">
 
-        <CollectionView ItemsSource="{Binding Coffees}" SelectionMode="Single">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Border Stroke="White" StrokeThickness="2" Padding="10" Margin="10" BackgroundColor="DarkGray" 
-                            StrokeShape="RoundRectangle 10">
+            <!-- Chargement -->
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="White"/>
 
-                        <VerticalStackLayout Spacing="10">
-                            <!-- Image du café -->
-                            <Border Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 10">
-                                <Image Source="{Binding Image}" 
-                                       HeightRequest="150" 
-                                       Aspect="AspectFill"/>
-                            </Border>
+            <CollectionView ItemsSource="{Binding Coffees}" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Stroke="White" StrokeThickness="4" Padding="10" Margin="10" BackgroundColor="DarkGray" 
+                                StrokeShape="RoundRectangle 10">
 
-                            <!-- Titre du café -->
-                            <Label Text="{Binding Title}" 
-                                   FontSize="22" 
-                                   FontAttributes="Bold" 
-                                   TextColor="White"/>
+                            <VerticalStackLayout Spacing="10">
+                                <!-- Image du café -->
+                                <Border Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 10">
+                                    <Image Source="{Binding Image}" 
+                                           HeightRequest="150" 
+                                           Aspect="AspectFill"/>
+                                </Border>
 
-                            <!-- Description -->
-                            <Label Text="{Binding Description}" 
-                                   FontSize="14" 
-                                   TextColor="White"/>
+                                <!-- Titre du café -->
+                                <Label Text="{Binding Title}" 
+                                       FontSize="22" 
+                                       FontAttributes="Bold" 
+                                       TextColor="White"/>
 
-                            <!-- Bouton Voir Détails -->
-                            <Button Text="Voir les détails" 
-                                    CommandParameter="{Binding}" 
-                                    Clicked="OnItemSelected"
-                                    BackgroundColor="Purple"
-                                    TextColor="White"
-                                    CornerRadius="10"
-                                    HorizontalOptions="Center"/>
-                        </VerticalStackLayout>
-                    </Border>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </StackLayout>
-    
+                                <!-- Description -->
+                                <Label Text="{Binding Description}" 
+                                       FontSize="14" 
+                                       TextColor="White"/>
+
+                                <!-- Bouton Voir Détails -->
+                                <Button Text="Voir les détails" 
+                                        CommandParameter="{Binding}" 
+                                        Clicked="OnItemSelected"
+                                        BackgroundColor="Purple"
+                                        TextColor="White"
+                                        CornerRadius="10"
+                                        HorizontalOptions="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+
 </ContentPage>
