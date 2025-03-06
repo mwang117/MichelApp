@@ -39,7 +39,7 @@ namespace MichelAPP.ViewModels
 
             // Initialisation des commandes
             AddCoffeeCommand = new Command(AddCoffee);
-            PickImageCommand = new Command(async () => await PickImage());
+            PickImageCommand = new Command(async () => await AvoirImage());
         }
 
         // Charge les cafés depuis l'API et met à jour la liste observable Coffees.
@@ -97,7 +97,7 @@ namespace MichelAPP.ViewModels
         }
 
         // Permet à l'utilisateur de choisir une image depuis son appareil.
-        public async Task PickImage()
+        public async Task AvoirImage()
         {
             var result = await FilePicker.PickAsync(new PickOptions
             {

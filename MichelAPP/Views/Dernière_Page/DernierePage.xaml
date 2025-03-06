@@ -1,12 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MichelAPP.DernierePage">
+             x:Class="MichelAPP.DernierePage"
+             Title="Page Libre"
+             BackgroundColor="{Binding CouleurFond}">
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label 
-            Text="Bienvenue sur la Dernière Page" 
-            FontSize="24" />
-    </StackLayout>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Titre -->
+            <Label 
+                Text="Citation :" 
+                FontSize="34"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="White"/>
+
+            <!-- Citation aléatoire -->
+            <Label 
+                Text="{Binding CitationActuelle}" 
+                FontSize="14"
+                FontAttributes="Italic"
+                HorizontalTextAlignment="Center"
+                TextColor="White"/>
+
+            <!-- Bouton pour obtenir un conseil -->
+            <Button 
+                Text="Nouveau Conseil"
+                Command="{Binding ObtenirCitationCommande}"
+                BackgroundColor="Orange"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="Center"/>
+
+            <!-- Bouton pour changer de mode (sombre / clair) -->
+            <Button 
+                Text="Mode (Sombre/Clair)"
+                Command="{Binding ChangerThemeCommande}"
+                BackgroundColor="Purple"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
