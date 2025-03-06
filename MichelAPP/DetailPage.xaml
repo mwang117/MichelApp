@@ -2,13 +2,23 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MichelAPP.DetailPage"
-             Title="Détails du Café">
+             Title="Détails du Café"
+             BackgroundColor="Black">
 
     <StackLayout Padding="20">
-        <Image Source="{Binding Image}" HeightRequest="200" Aspect="AspectFit"/>
-        <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold"/>
-        <Label Text="{Binding Description}" FontSize="16" />
-        <Label Text="Ingrédients :" FontSize="18" FontAttributes="Bold"/>
-        <Label Text="{Binding IngredientsList}" FontSize="14"/>
+        <!-- Image du café -->
+        <Border Stroke="Transparent" StrokeShape="RoundRectangle 10">
+            <Image Source="{Binding Image}" HeightRequest="250" Aspect="AspectFill" />
+        </Border>
+        <Label Text="{Binding Title}" 
+               FontSize="24" 
+               FontAttributes="Bold"/>
+        <Label Text="{Binding Description}" 
+               FontSize="16" />
+        <Label Text="Ingrédients :" 
+               FontSize="18" FontAttributes="Bold"/>
+        <Label Text="{Binding IngredientsList}" 
+               FontSize="14"/>
     </StackLayout>
+    
 </ContentPage>
