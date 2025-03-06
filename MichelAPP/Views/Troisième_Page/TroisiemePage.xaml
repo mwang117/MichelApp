@@ -22,7 +22,6 @@
 
             <!-- Nom du café -->
             <Entry Placeholder="Nom du café"
-                   Margin="10 0 0 0"
                    Text="{Binding NewTitle}" />
 
             <!-- Description -->
@@ -31,14 +30,14 @@
                     Text="{Binding NewDescription}" />
 
             <!-- URL de l'image -->
-            <Entry Placeholder="URL de l'image"
-                   Text="{Binding NewImage}" />
+            <Entry Placeholder="URL de l'image (si non sélectionnée)" Text="{Binding NewImage}" />
 
             <!-- Bouton pour choisir une image -->
-            <Button Text="Choisir une image"
+            <Button Text="Sélectionner une image"
+                    Clicked="OnSelectImage"
                     BackgroundColor="Gray"
                     TextColor="White"
-                    Command="{Binding SelectImageCommand}"/>
+                    CornerRadius="10"/>
 
             <!-- Ingrédients -->
             <Entry Placeholder="Ingrédients (séparés par une virgule)" 
@@ -48,7 +47,6 @@
             <Button Text="Ajouter" 
                     Command="{Binding AddCoffeeCommand}" 
                     BackgroundColor="Purple"
-                    Margin="10 0 0 0"
                     TextColor="White"
                     CornerRadius="10"
                     HorizontalOptions="Center"/>

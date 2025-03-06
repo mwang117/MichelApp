@@ -33,15 +33,17 @@ namespace MichelAPP.ViewModels
 
         // Commande pour ajouter un café
         public ICommand AddCoffeeCommand { get; }
+        public ICommand PickImageCommand { get; }
 
         public CoffeeViewModel()
         {
             _coffeeService = new CoffeeService();
             LoadCoffees();
 
-            // Définition de la commande Ajouter
             AddCoffeeCommand = new Command(AddCoffee);
+            PickImageCommand = new Command(async () => await PickImage());
         }
+
 
         private async void LoadCoffees()
         {
@@ -66,7 +68,7 @@ namespace MichelAPP.ViewModels
                 Id = Coffees.Count + 1,
                 Title = NewTitle,
                 Description = NewDescription,
-                Image = string.IsNullOrWhiteSpace(NewImage) ? "default.png" : NewImage,
+                Image = string.IsNullOrWhiteSpace(NewImage) ? "image1.png" : NewImage, // Image par défaut
                 Ingredients = NewIngredients.Split(',')
             };
 
@@ -83,10 +85,28 @@ namespace MichelAPP.ViewModels
             OnPropertyChanged(nameof(NewIngredients));
         }
 
+
         public event PropertyChangedEventHandler? PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null!)
+        public void OnPropertyChanged([CallerMemberName] string propertyName = null!)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        // Méthode pour choisir une image
+        public async Task PickImage()
+        {
+            var result = await FilePicker.PickAsync(new PickOptions
+            {
+                FileTypes = FilePickerFileType.Images,
+                PickerTitle = "Choisissez une image"
+            });
+
+            if (result != null)
+            {
+                NewImage = result.FullPath;
+                OnPropertyChanged(nameof(NewImage));
+            }
+        }
+
     }
 }
