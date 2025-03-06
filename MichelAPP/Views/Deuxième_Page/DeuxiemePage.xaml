@@ -26,9 +26,10 @@
                             <VerticalStackLayout Spacing="10">
                                 <!-- Image du café -->
                                 <Border Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 10">
-                                    <Image Source="{Binding Image}" 
+                                    <Image Source="{Binding DisplayImage}" 
                                            HeightRequest="150" 
                                            Aspect="AspectFill"/>
+
                                 </Border>
 
                                 <!-- Titre du café -->

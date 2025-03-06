@@ -1,13 +1,24 @@
-﻿using MichelAPP.Models;
-using Microsoft.Maui.Controls;
+﻿using MichelAPP.ViewModels;
+using MichelAPP.Models;
 
 namespace MichelAPP
 {
     public partial class DeuxiemePage : ContentPage
     {
+        private readonly CoffeeViewModel _viewModel;
+
         public DeuxiemePage()
         {
             InitializeComponent();
+
+            _viewModel = Application.Current.MainPage.Handler.MauiContext.Services.GetService<CoffeeViewModel>();
+            BindingContext = _viewModel;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            _viewModel.OnPropertyChanged(nameof(_viewModel.Coffees)); // Rafraîchit la liste
         }
 
         private async void OnItemSelected(object sender, EventArgs e)
@@ -22,3 +33,4 @@ namespace MichelAPP
         }
     }
 }
+

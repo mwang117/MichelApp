@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.DependencyInjection;
 using MichelAPP.Services;
 using MichelAPP.ViewModels;
 
@@ -24,6 +23,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<CoffeeViewModel>();
         builder.Services.AddTransient<DeuxiemePage>();
         builder.Services.AddTransient<DetailPage>();
+        builder.Services.AddSingleton<CoffeeViewModel>();
 
 #if DEBUG
         builder.Logging.AddDebug();
