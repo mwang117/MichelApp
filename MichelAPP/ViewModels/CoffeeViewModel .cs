@@ -23,7 +23,7 @@ namespace MichelAPP.ViewModels
             }
         }
 
-        public CoffeeViewModel()
+        public CoffeeViewModel() 
         {
             _coffeeService = new CoffeeService();
             Coffees = new ObservableCollection<CoffeeModel>();
