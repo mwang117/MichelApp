@@ -13,30 +13,45 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
 
+            <!-- Titre -->
             <Label Text="Ajoutez un nouveau café" 
-                   FontSize="24" 
+                   FontSize="34" 
                    FontAttributes="Bold"
                    TextColor="White"
                    HorizontalTextAlignment="Center"/>
 
             <!-- Nom du café -->
-            <Entry Placeholder="Nom du café" Text="{Binding NewTitle}" />
+            <Entry Placeholder="Nom du café"
+                   Margin="10 0 0 0"
+                   Text="{Binding NewTitle}" />
 
             <!-- Description -->
-            <Editor Placeholder="Description" HeightRequest="80" Text="{Binding NewDescription}" />
+            <Editor Placeholder="Description" 
+                    HeightRequest="100" 
+                    Text="{Binding NewDescription}" />
 
             <!-- URL de l'image -->
-            <Entry Placeholder="URL de l'image" Text="{Binding NewImage}" />
+            <Entry Placeholder="URL de l'image"
+                   Text="{Binding NewImage}" />
+
+            <!-- Bouton pour choisir une image -->
+            <Button Text="Choisir une image"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    Command="{Binding SelectImageCommand}"/>
 
             <!-- Ingrédients -->
-            <Entry Placeholder="Ingrédients (séparés par une virgule)" Text="{Binding NewIngredients}" />
+            <Entry Placeholder="Ingrédients (séparés par une virgule)" 
+                   Text="{Binding NewIngredients}" />
 
             <!-- Bouton Ajouter -->
             <Button Text="Ajouter" 
                     Command="{Binding AddCoffeeCommand}" 
                     BackgroundColor="Purple"
+                    Margin="10 0 0 0"
                     TextColor="White"
-                    CornerRadius="10"/>
+                    CornerRadius="10"
+                    HorizontalOptions="Center"/>
 
         </VerticalStackLayout>
     </ScrollView>
