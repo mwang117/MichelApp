@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
+using MichelAPP.Services;
+using MichelAPP.ViewModels;
 
 namespace MichelAPP;
 
@@ -17,6 +20,10 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<AccueilPage>();
         builder.Services.AddTransient<GifPage>();
+        builder.Services.AddSingleton<CoffeeService>();
+        builder.Services.AddSingleton<CoffeeViewModel>();
+        builder.Services.AddTransient<DeuxiemePage>();
+        builder.Services.AddTransient<DetailPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();

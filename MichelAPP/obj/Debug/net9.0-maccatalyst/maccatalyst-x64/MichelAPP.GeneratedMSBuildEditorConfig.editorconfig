@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.DernierePage.xam
 build_metadata.AdditionalFiles.TargetPath = DernierePage.xaml
 build_metadata.AdditionalFiles.RelativePath = DernierePage.xaml
 
+[D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetailPage.xaml
+
 [D:/BUT2/S4/R4A_11 Dév mobile/appli_mobile/MichelAPP/MichelAPP/DeuxiemePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MichelAPP.DeuxiemePage.xaml
