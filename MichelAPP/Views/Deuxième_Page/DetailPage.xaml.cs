@@ -1,5 +1,4 @@
-﻿using Microsoft.Maui.Controls;
-using MichelAPP.Models;
+﻿using MichelAPP.Models;
 
 namespace MichelAPP
 {

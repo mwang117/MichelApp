@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.Controls;
-
-namespace MichelAPP
+﻿namespace MichelAPP
 {
     public partial class AccueilPage : ContentPage
     {

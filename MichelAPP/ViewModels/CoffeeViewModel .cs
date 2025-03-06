@@ -1,12 +1,9 @@
 ﻿using System.Collections.ObjectModel;
-using System.Threading.Tasks;
 using MichelAPP.Models;
 using MichelAPP.Services;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using Microsoft.Maui.Controls;
-using System.Diagnostics;
 
 namespace MichelAPP.ViewModels
 {
