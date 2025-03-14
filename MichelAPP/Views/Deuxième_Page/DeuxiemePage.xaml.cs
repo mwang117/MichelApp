@@ -1,5 +1,5 @@
-﻿using MichelAPP.ViewModels;
-using MichelAPP.Models;
+﻿using MichelAPP.Models;
+using MichelAPP.ViewModels;
 
 namespace MichelAPP
 {

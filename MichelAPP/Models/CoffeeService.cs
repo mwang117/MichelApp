@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Net.Http;
+﻿using MichelAPP.Models;
 using System.Text.Json;
-using System.Threading.Tasks;
-using MichelAPP.Models;
 
 namespace MichelAPP.Services
 {
@@ -18,8 +15,17 @@ namespace MichelAPP.Services
 
         public async Task<List<CoffeeModel>> GetCoffeesAsync()
         {
-            var response = await _httpClient.GetStringAsync(ApiUrl);
-            return JsonSerializer.Deserialize<List<CoffeeModel>>(response, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            try
+            {
+                var response = await _httpClient.GetStringAsync(ApiUrl);
+                return JsonSerializer.Deserialize<List<CoffeeModel>>(response, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"Erreur HTTP : {ex.Message}");
+                return new List<CoffeeModel>();
+            }
         }
+
     }
 }

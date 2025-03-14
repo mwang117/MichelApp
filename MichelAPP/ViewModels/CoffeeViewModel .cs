@@ -1,6 +1,6 @@
-﻿using System.Collections.ObjectModel;
-using MichelAPP.Models;
+﻿using MichelAPP.Models;
 using MichelAPP.Services;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
@@ -19,7 +19,7 @@ namespace MichelAPP.ViewModels
             set
             {
                 _isLoading = value;
-                OnPropertyChanged(); 
+                OnPropertyChanged();
             }
         }
 
