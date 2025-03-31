@@ -3,7 +3,11 @@
     x:Class="MichelAPP.Views.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MichelAPP"
+    xmlns:viewsAccueil="clr-namespace:MichelAPP.Views.Accueil"
+    xmlns:viewsDeuxieme="clr-namespace:MichelAPP.Views.Deuxième_Page"
+    xmlns:viewsTroisieme="clr-namespace:MichelAPP.Views.Troisième_Page"
+    xmlns:viewsDerniere="clr-namespace:MichelAPP.Views.Dernière_Page"
+
     Title="MichelAPP"
     Shell.TitleColor="Black"
     Shell.TabBarForegroundColor="Black"
@@ -24,20 +28,21 @@
     <!-- Menu en bas -->
     <TabBar>
         <Tab Title="Accueil" Icon="home.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AccueilPage}" />
+            <ShellContent ContentTemplate="{DataTemplate viewsAccueil:AccueilPage}" />
         </Tab>
 
         <Tab Title="Deuxième Page" Icon="deuxieme.png">
-            <ShellContent ContentTemplate="{DataTemplate local:DeuxiemePage}" />
+            <ShellContent ContentTemplate="{DataTemplate viewsDeuxieme:DeuxiemePage}" />
         </Tab>
 
         <Tab Title="Troisième Page" Icon="troisieme.png">
-            <ShellContent ContentTemplate="{DataTemplate local:TroisiemePage}" />
+            <ShellContent ContentTemplate="{DataTemplate viewsTroisieme:TroisiemePage}" />
         </Tab>
 
         <Tab Title="Dernière Page" Icon="derniere.png">
-            <ShellContent ContentTemplate="{DataTemplate local:DernierePage}" />
+            <ShellContent ContentTemplate="{DataTemplate viewsDerniere:DernierePage}" />
         </Tab>
+
     </TabBar>
 
 </Shell>

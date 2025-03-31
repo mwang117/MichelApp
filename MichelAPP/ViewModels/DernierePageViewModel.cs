@@ -50,7 +50,7 @@ namespace MichelAPP.ViewModels
             }
             catch (Exception)
             {
-                CitationActuelle = "❌ Impossible de récupérer un conseil.";
+                CitationActuelle = "Impossible de récupérer un conseil.";
             }
         }
 
