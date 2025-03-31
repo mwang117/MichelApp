@@ -1,6 +1,10 @@
-﻿obj\Debug\net9.0-android\resizetizer\r\drawable\derniere.png
+﻿obj\Debug\net9.0-android\resizetizer\r\drawable\animation.gif
+obj\Debug\net9.0-android\resizetizer\r\drawable\aupif.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\derniere.png
 obj\Debug\net9.0-android\resizetizer\r\drawable\deuxieme.png
 obj\Debug\net9.0-android\resizetizer\r\drawable\home.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\image1.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\image2.png
 obj\Debug\net9.0-android\resizetizer\r\drawable\logo.png
 obj\Debug\net9.0-android\resizetizer\r\drawable\troisieme.png
 obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml

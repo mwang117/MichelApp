@@ -1,8 +1,8 @@
 ﻿using MichelAPP.Models;
 
-namespace MichelAPP
+namespace MichelAPP.Views.Deuxième_Page
 {
-    public partial class DetailPage : ContentPage
+    public partial class DetailPage
     {
         public CoffeeModel Coffee { get; set; }
 

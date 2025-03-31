@@ -69,7 +69,7 @@ namespace MichelAPP.ViewModels
                 Id = Coffees.Count + 1,
                 Title = NewTitle,
                 Description = NewDescription,
-                Image = string.IsNullOrWhiteSpace(NewImage) ? "default.png" : NewImage, // Image par défaut si l'utilisateur ne fournit pas d'image
+                Image = string.IsNullOrWhiteSpace(NewImage) ? "aupif" : NewImage, // Image par défaut si l'utilisateur ne fournit pas d'image
                 Ingredients = NewIngredients.Split(',')
             };
 

@@ -1,15 +1,17 @@
 ﻿using MichelAPP.ViewModels;
 
-namespace MichelAPP
+namespace MichelAPP.Views.Troisième_Page
 {
-    public partial class TroisiemePage : ContentPage
+    public partial class TroisiemePage
     {
         private readonly CoffeeViewModel _viewModel;
+        
         public TroisiemePage()
         {
             InitializeComponent();
 
-            _viewModel = Application.Current.MainPage.Handler.MauiContext.Services.GetService<CoffeeViewModel>();
+            _viewModel = this.Handler?.MauiContext?.Services.GetService<CoffeeViewModel>()
+                         ?? throw new InvalidOperationException("CoffeeViewModel not found");
             BindingContext = _viewModel;
         }
 

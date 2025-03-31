@@ -1,4 +1,4 @@
-﻿namespace MichelAPP
+﻿namespace MichelAPP.Views.Accueil
 {
     public partial class GifPage : ContentPage
     {

@@ -1,6 +1,7 @@
-﻿namespace MichelAPP
+﻿namespace MichelAPP.Views.Accueil
+
 {
-    public partial class AccueilPage : ContentPage
+    public partial class AccueilPage
     {
         public AccueilPage()
         {

@@ -1,8 +1,8 @@
 ﻿using MichelAPP.ViewModels;
 
-namespace MichelAPP
+namespace MichelAPP.Views.Dernière_Page
 {
-    public partial class DernierePage : ContentPage
+    public partial class DernierePage
     {
         public DernierePage()
         {

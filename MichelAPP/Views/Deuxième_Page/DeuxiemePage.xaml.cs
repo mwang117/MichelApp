@@ -1,9 +1,9 @@
 ﻿using MichelAPP.Models;
 using MichelAPP.ViewModels;
 
-namespace MichelAPP
+namespace MichelAPP.Views.Deuxième_Page
 {
-    public partial class DeuxiemePage : ContentPage
+    public partial class DeuxiemePage
     {
         private readonly CoffeeViewModel _viewModel;
 
@@ -11,7 +11,8 @@ namespace MichelAPP
         {
             InitializeComponent();
 
-            _viewModel = Application.Current.MainPage.Handler.MauiContext.Services.GetService<CoffeeViewModel>();
+            _viewModel = this.Handler?.MauiContext?.Services.GetService<CoffeeViewModel>()
+                         ?? throw new InvalidOperationException("CoffeeViewModel not found");
             BindingContext = _viewModel;
         }
 
