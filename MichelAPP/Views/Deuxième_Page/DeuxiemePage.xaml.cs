@@ -11,8 +11,7 @@ namespace MichelAPP.Views.Deuxième_Page
         {
             InitializeComponent();
 
-            _viewModel = this.Handler?.MauiContext?.Services.GetService<CoffeeViewModel>()
-                         ?? throw new InvalidOperationException("CoffeeViewModel not found");
+            _viewModel = Application.Current.MainPage?.Handler?.MauiContext?.Services?.GetService<CoffeeViewModel>();
             BindingContext = _viewModel;
         }
 
